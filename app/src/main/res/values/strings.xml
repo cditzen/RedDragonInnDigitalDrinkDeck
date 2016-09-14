@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Red Dragon Inn</string>
+    <string name="action_exit">Exit</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_sign_in">Sign In</string>
+    <string name="name_text_view">Name</string>
+    <string name="sign_in_button">Sign In as Guest</string>
+    <string name="title_activity_find_lobby">Join </string>
+    <string name="logo_text_view">Red Dragon Inn Digital Drink Deck</string>
+    <string name="greeting_text_view">Hello</string>
+    <string name="title_activity_lobby">LobbyActivity</string>
+    <string name="host_button">Determine Player Order</string>
+    <string name="title_activity_game_interface">Red Dragon Inn</string>
+    <string name="title_activity_anytime_card">Change an adventurer\'s stats</string>
+    <string name="fortitude_button">Fortitude</string>
+    <string name="alcohol_button">Alcohol </string>
+    <string name="title_activity_change_fortitude">ChangeFortitudeActivity</string>
+    <string name="title_activity_change_alcohol">ChangeAlcoholActivity</string>
+    <string name="anytime_card_button">Anytime Card</string>
+    <string name="confirm_anytime_card_button">Confirm Anytime Card</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="title_activity_deal_drinkme_card">Buy a Drink</string>
+    <string name="title_activity_drink_me_card">Red Dragon Inn</string>
+    <string name="game_over_text_view">Game Over!</string>
+    <string name="action_view_players">View Players</string>
+    <string name="action_anytime_card">Play Anytime</string>
+    <string name="deal_drinkme_card_button">Deal DrinkMe Card</string>
+
+    <!-- List of character names -->
+    <string-array name="character_spinner">
+        <item>Deirdre</item>
+        <item>Fiona</item>
+        <item>Gerki</item>
+        <item>Zot</item>
+        <item>Gog</item>
+        <item>Dimli</item>
+        <item>Eve</item>
+        <item>Fleck</item>
+    </string-array>
+
+    <!-- List of all anytime card options available to the player from the GameInterfaceActivity -->
+    <string-array name="anytime_card_options">
+        <item>Change an Adventurer\'s Stats</item>
+        <item>Buy an Adventurer a Drink</item>
+        <item>Draw from DrinkMe Deck</item>
+    </string-array>
+    <string-array name="anytime_card_fortitude_options">
+        <item>Fortitude +4</item>
+        <item>Fortitude +3</item>
+        <item>Fortitude +2</item>
+        <item>Fortitude +1</item>
+        <item>Fortitude</item>
+        <item>Fortitude -1</item>
+        <item>Fortitude -2</item>
+        <item>Fortitude -3</item>
+        <item>Fortitude -4</item>
+    </string-array>
+    <string-array name="anytime_card_alcohol_options">
+        <item>Alcohol +4</item>
+        <item>Alcohol +3</item>
+        <item>Alcohol +2</item>
+        <item>Alcohol +1</item>
+        <item>Alcohol</item>
+        <item>Alcohol -1</item>
+        <item>Alcohol -2</item>
+        <item>Alcohol -3</item>
+        <item>Alcohol -4</item>
+    </string-array>
+
+    <!-- Button text -->
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="title_activity_drink_event">Drink Event</string>
+    <string name="title_activity_anytime_deal_card">Buy A Drink</string>
+    <string name="title_activity_anytime_draw_card">Drink A Drink</string>
+
+    <!-- LogoutExitDialog -->
+    <string name="dialog_logout_exit_text">Are you sure you want to leave the Red Dragon Inn?</string>
+
+</resources>

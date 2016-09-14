@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cs309.reddragoninndigitaldrinkdeck" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".PreGameActivities.MainActivity"
+            android:taskAffinity="cs309.rdiddd.main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PreGameActivities.SignInActivity"
+            android:taskAffinity="cs309.rdiddd.pregame"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PreGameActivities.FindLobbyActivity"
+            android:taskAffinity="cs309.rdiddd.pregame"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".PreGameActivities.LobbyActivity"
+            android:taskAffinity="cs309.rdiddd.pregame"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".GameActivity.GameInterfaceActivity"
+            android:taskAffinity="cs309.rdiddd.game"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AnytimeCardActivities.ChangeStatActivity"
+            android:taskAffinity="cs309.rdiddd.game"
+            android:label="@string/title_activity_anytime_card"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DrinkMeActivities.DealDrinkMeCardActivity"
+            android:taskAffinity="cs309.rdiddd.game"
+            android:label="@string/title_activity_deal_drinkme_card"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DrinkMeActivities.DrawDrinkMeCardActivity"
+            android:taskAffinity="cs309.rdiddd.game"
+            android:label="@string/title_activity_drink_me_card"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".DrinkMeActivities.DrinkEventActivity"
+            android:taskAffinity="cs309.rdiddd.game"
+            android:label="@string/title_activity_drink_event"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AnytimeCardActivities.AnytimeBuyDrinkActivity"
+            android:taskAffinity="cs309.rdiddd.game"
+            android:label="@string/title_activity_anytime_deal_card"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".AnytimeCardActivities.AnytimeDrawCardActivity"
+            android:taskAffinity="cs309.rdiddd.game"
+            android:label="@string/title_activity_anytime_draw_card"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

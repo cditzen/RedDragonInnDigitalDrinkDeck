@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <!-- Image for each ListItem row-->
+    <ImageView
+        android:id="@+id/playerImageView"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/deirdre"
+        android:outlineProvider="background"
+        android:layout_alignTop="@+id/playerNameTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/fortitudeBanner"
+        android:layout_toStartOf="@+id/fortitudeBanner"
+        android:layout_alignBottom="@+id/alcoholBanner" />
+
+    <!-- Used to define a custom ListView row -->
+    <TextView
+        android:id="@+id/playerNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Name"
+        android:layout_marginLeft="105dp"
+        android:layout_marginStart="105dp"
+        android:textStyle="normal"
+        android:layout_marginTop="7dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Fortitude:  "
+        android:id="@+id/fortitudeBanner"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/playerNameTextView"
+        android:layout_alignLeft="@+id/playerNameTextView"
+        android:layout_alignStart="@+id/playerNameTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="15sp"
+        android:id="@+id/fortitudeTextView"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:textStyle="bold"
+        android:layout_alignTop="@+id/fortitudeBanner"
+        android:layout_toRightOf="@+id/fortitudeBanner"
+        android:layout_toEndOf="@+id/fortitudeBanner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="Alcohol:  "
+        android:id="@+id/alcoholBanner"
+        android:textStyle="bold"
+        android:layout_below="@+id/fortitudeBanner"
+        android:layout_alignLeft="@+id/fortitudeBanner"
+        android:layout_alignStart="@+id/fortitudeBanner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20"
+        android:textSize="15sp"
+        android:id="@+id/alcoholTextView"
+        android:textStyle="bold"
+        android:layout_below="@+id/fortitudeTextView"
+        android:layout_alignLeft="@+id/fortitudeTextView"
+        android:layout_alignStart="@+id/fortitudeTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textSize="15sp"
+        android:id="@+id/drinkMeTextView"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_alignBottom="@+id/playerNameTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
